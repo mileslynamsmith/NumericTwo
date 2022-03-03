@@ -15,15 +15,13 @@ class NumericTwo {
         return result;
     }
     // method odd
-    int odd (){
-        int result = (num % 2 != 0 );
-        return result;
+    boolean odd (){
+        if (num % 2 != 0 );
+        return true;
     }
     // method even
-    int even (){
-        int result = (num % 2 == 0 );
-        return result;
-    }
-    public static void main(String[] args){
-    }
+    boolean even (){
+       if (num % 2 == 0 );
+        return true;
+    
 }
